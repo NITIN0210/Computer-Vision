@@ -1,4 +1,4 @@
-I=imread('E:/u/sem1/cv/aat1/image13.jpg')
+I=imread('E:/u/sem1/cv/aat1/asignment1/image13.jpg')
 imshow(I)
 [x,y]=ginput(2)
 

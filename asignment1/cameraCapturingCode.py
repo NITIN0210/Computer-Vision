@@ -45,6 +45,6 @@ with dai.Device(pipeline) as device:
         cv2.imshow("video", Frame)
         if cv2.waitKey(1)==ord('p'):
             count+=1
-            cv2.imwrite('image'+str(count)+'.jpg',Frame)
+            cv2.imwrite(R'E:\u\sem1\cv\aat3\question6\images'+'\image'+str(count)+'.jpg',Frame)
         if cv2.waitKey(1) == ord('q'):
             break
